@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: arial; font-size: 15px; line-height:30px;
+}
+/* manu bar  */
+.nav{
+    
+    background-color: rgb(29 150 119 / 54%);
+    display: flex;
+     overflow: hidden;
+}
+.menu{
+    list-style: none;
+  
+}
+.menu li{
+    float: right;
+    padding:px;
+    margin-left: 70px;
+   
+}
+.menu li a{
+    font-weight: bold;
+    text-decoration:none;
+    font-size: 19px;
+}
+.menu li:hover{
+    background-color: rgb(248, 243, 239);
+}
+.menu li a:hover{ 
+    color: rgb(240, 3, 3);
+}
+/* home */
+.home_div{
+    background-image:url("asset/img/photo0061.jpg");
+    background-image: linear-gradient(red, yellow);
+    text-align: center;
+    padding-top: 70px;
+}
+section{
+    background-image:url("asset/img/photo0061.jpg");
+    /* background-color: blue; */
+}
+body {
+    background-image: url("asset/img/logo.PNG");
+    
+  }
+
+
+  .head_1{
+    background: linear-gradient(to left, #33ccff 30%, #ff9966 80%);
+}
+
+/* about  */
+.about_main{
+    display: flex;
+    flex-basis: 45%;
+    margin: 30px;
+
+
+}
+
+  /* serveve  */
+   .service_main{
+    display: flex;
+    flex-basis: 32%;
+    margin: 10px;
+    text-align: center;
+   }
+
+   /* servive end  */
+   /* skill  */
+
+
+
+   /* skill end  */
+   /* work  */
+
+
+
+   /* work end  */
+    /* contack  */
+      .contack{
+       
+          text-align: center;
+      }
+      input{
+         padding: 10px;
+         height: 50px;
+         width: 800px;
+         margin: 10px;
+       
+      }
+      .contack1{
+          height: 60px;
+      }
+      .button1{
+          height: 20px;
+          width: 30px;
+          text-align: center;
+          background-color: rgb(120, 189, 216);
+      }
+
+
+    /* contack end  */
