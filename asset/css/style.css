@@ -4,6 +4,9 @@
 }
 body{
     font-family: arial; font-size: 15px; line-height:30px;
+    background-color: #9bb3bb85;
+   
+
 }
 /* manu bar  */
 .nav{
@@ -35,7 +38,8 @@ body{
 }
 /* home */
 .home_div{
-    background-image:url("asset/img/photo0061.jpg");
+    background-image:url("");
+    
     background-image: linear-gradient(red, yellow);
     text-align: center;
     padding-top: 70px;
@@ -73,9 +77,84 @@ body {
 
    /* servive end  */
    /* skill  */
+   h3{
+       font-size: 50px;
+   }
+   .skill1{
+    background: linear-gradient(to left, #0c0e0f85 30%, #e63d45 80%);
+   }
+.skill{
+    width: 100%;
+    margin: 60px auto;
+    color: #011031b3;
+    background-color: #2e31269e;
 
-
-
+}
+.skill li{
+    margin: 20px 0;
+}
+.bar{
+    background: #4f074f;
+    display: block;
+    height: 20px;
+    border: 1px solid #b5aed7;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 7px #b46f36;
+}
+.bar span {
+    height: 20px;
+    float: left;
+    background: #8e464691;
+}
+.html{
+    width: 90%;
+    animation: html 5s;
+}
+.css{
+    width: 70%;
+    animation: css 5s;
+}
+.jquary{
+    width: 55%;
+    animation: jquary 5s;
+}
+.javascript{
+    width: 70%;
+    animation: javascript 5s;
+}
+@keyframes html {
+    0%{
+        width: 0%
+    }
+            100%{
+                width: 65%;           
+        };   
+}
+@keyframes css {
+    0%{
+        width: 0%
+    }
+            100%{
+                width: 59%;           
+        };   
+}
+@keyframes jquary {
+    0%{
+        width: 0%
+    }
+            100%{
+                width: 55%;           
+        };   
+}
+@keyframes javascript {
+    0%{
+        width: 0%
+    }
+            100%{
+                width: 70%;           
+        };   
+}
    /* skill end  */
    /* work  */
 
@@ -103,6 +182,9 @@ body {
           text-align: center;
           background-color: rgb(120, 189, 216);
       }
+.ahosan{
+    background-image: url("asset/img/kkkkk.jpg");
 
+}
 
     /* contack end  */
