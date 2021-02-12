@@ -57,20 +57,22 @@ body{
 
 
 
-  .head_1{
-    background: linear-gradient(to left, #33ccff 30%, #ff9966 80%);
-}
+
 
 /* about  */
 .about_main{
     display: flex;
-    flex-basis: 45%;
+    /* flex-basis: 45%; */
     margin: 30px;
 }
-/* .class{
-    border-radius: 30px;
-    border:1px solid rebeccapurple
-} */
+.class{
+   
+    display: block;
+    
+}
+.class img{
+    border-radius: 100%;
+}
 .btn2{
     padding: 10px 20px;
    background: none;
@@ -88,6 +90,13 @@ body{
     flex-basis: 32%;
     margin: 10px;
     text-align: center;
+   }
+   .head2{
+    background: linear-gradient(to left, #1396d885 30%, #20831d 80%);
+   }
+   .head_1{
+    background: linear-gradient(to left, #8b5a1885 30%, #11a1da 80%);
+
    }
 
    /* servive end  */
@@ -210,3 +219,9 @@ body{
 }
 
     /* contack end  */
+    .footer{
+        background-color: black;
+        color: white;
+        margin-top: 100px;
+        text-align: center;
+    }
